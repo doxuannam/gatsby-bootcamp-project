@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "env-cmd gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -26,6 +26,7 @@
     "gatsby-remark-prismjs": "^3.3.3",
     "gatsby-remark-relative-images": "^0.2.2",
     "gatsby-source-filesystem": "^2.1.5",
+    "gatsby-source-mongodb": "^2.1.11",
     "gatsby-transformer-remark": "^2.6.8",
     "gatsby-transformer-sharp": "^2.2.4",
     "node-sass": "^4.12.0",
