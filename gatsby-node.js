@@ -15,7 +15,7 @@ module.exports.onCreateNode = ({ node, actions }) => {
     /image\/*/.test(node.internal.mediaType) &&
     /thumbnails/.test(node.relativeDirectory)
   ) {
-    console.log("@@@@@", node)
+    // console.log("@@@@@", node)
     const imgSlug = node.relativeDirectory
     createNodeField({
       node,
