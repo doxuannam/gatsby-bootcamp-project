@@ -11,7 +11,7 @@ tags:
 ```javascript
 const request = New XMLHttpRequest()
 request.open(url,'GET',true)
-
+nam
 ```
 
 ```python
